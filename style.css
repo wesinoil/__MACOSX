@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <style>
+      .row-grid {
+        display: flex;
+        flex-wrap: wrap;
+        height: 300px;
+      }
+      .col-grid {
+        flex-basis: 20%;
+        height: 100%;
+        background-color: #ddd;
+        border: 1px solid #000;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row-grid">
+      <div class="col-grid" style="flex-basis: calc(20% + (30% - 20%) * Math.random());"></div>
+      <div class="col-grid" style="flex-basis: calc(20% + (30% - 20%) * Math.random());"></div>
+      <div class="col-grid" style="flex-basis: calc(20% + (30% - 20%) * Math.random());"></div>
+      <div class="col-grid" style="flex-basis: calc(20% + (30% - 20%) * Math.random());"></div>
+      <div class="col-grid" style="flex-basis: calc(20% + (30% - 20%) * Math.random());"></div>
+    </div>
+    <br><br>
+    <div class="row-grid">
+      <div class="col-grid" style="flex-basis: calc(20% + (30% - 20%) * Math.random());"></div>
+      <div class="col-grid" style="flex-basis: calc(20% + (30% - 20%) * Math.random());"></div>
+      <div class="col-grid" style="flex-basis: calc(20% + (30% - 20%) * Math.random());"></div>
+      <div class="col-grid" style="flex-basis: calc(20% + (30% - 20%) * Math.random());"></div>
+      <div class="col-grid" style="flex-basis: calc(20% + (30% - 20%) * Math.random());"></div>
+    </div>
+  </body>
+</html>
